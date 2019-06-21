@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UniformTest]">
+  <test thread-count="5" name="UniformTest(failed)">
+    <classes>
+      <class name="com.training.sanity.tests.UniformTest">
+        <methods>
+          <include name="validLoginTest"/>
+          <include name="setUpBeforeClass"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="extentreport"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.UniformTest -->
+    </classes>
+  </test> <!-- UniformTest(failed) -->
+</suite> <!-- Failed suite [UniformTest] -->

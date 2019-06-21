@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Firefox(failed)" parallel="tests">
+    <parameter name="mybrowser" value="Firefox"/>
+    <classes>
+      <class name="com.training.sanity.tests.LogoutTest">
+        <methods>
+          <include name="extentreport"/>
+          <include name="setUp"/>
+          <include name="validLogoutTest"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.LogoutTest -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+  <test thread-count="5" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="mybrowser" value="Chrome"/>
+    <classes>
+      <class name="com.training.sanity.tests.LogoutTest">
+        <methods>
+          <include name="extentreport"/>
+          <include name="validLoginTest"/>
+          <include name="setUp"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.LogoutTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

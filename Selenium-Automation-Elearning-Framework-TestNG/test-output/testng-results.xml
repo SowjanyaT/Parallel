@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22272" started-at="2019-06-21T07:24:13Z" finished-at="2019-06-21T07:24:35Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="20749" started-at="2019-06-21T07:24:13Z" finished-at="2019-06-21T07:24:34Z">
+      <class name="com.training.sanity.tests.UniformTest">
+        <test-method status="PASS" signature="extentreport()[pri:0, instance:com.training.sanity.tests.UniformTest@4883b407]" name="extentreport" is-config="true" duration-ms="193" started-at="2019-06-21T07:24:13Z" finished-at="2019-06-21T07:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UniformTest@4883b407]" name="setUpBeforeClass" is-config="true" duration-ms="2" started-at="2019-06-21T07:24:13Z" finished-at="2019-06-21T07:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.training.sanity.tests.UniformTest@4883b407]" name="setUp" is-config="true" duration-ms="11089" started-at="2019-06-21T07:24:13Z" finished-at="2019-06-21T07:24:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.UniformTest@4883b407]" name="validLoginTest" duration-ms="6559" started-at="2019-06-21T07:24:24Z" finished-at="2019-06-21T07:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UniformTest@4883b407]" name="tearDown" is-config="true" duration-ms="2884" started-at="2019-06-21T07:24:31Z" finished-at="2019-06-21T07:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.UniformTest -->
+    </test> <!-- ChromeTest -->
+    <test name="Firefox" duration-ms="22272" started-at="2019-06-21T07:24:13Z" finished-at="2019-06-21T07:24:35Z">
+      <class name="com.training.sanity.tests.UniformTest">
+        <test-method status="PASS" signature="extentreport()[pri:0, instance:com.training.sanity.tests.UniformTest@7085bdee]" name="extentreport" is-config="true" duration-ms="193" started-at="2019-06-21T07:24:13Z" finished-at="2019-06-21T07:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UniformTest@7085bdee]" name="setUpBeforeClass" is-config="true" duration-ms="2" started-at="2019-06-21T07:24:13Z" finished-at="2019-06-21T07:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.training.sanity.tests.UniformTest@7085bdee]" name="setUp" is-config="true" duration-ms="12001" started-at="2019-06-21T07:24:13Z" finished-at="2019-06-21T07:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.UniformTest@7085bdee]" name="validLoginTest" duration-ms="5676" started-at="2019-06-21T07:24:25Z" finished-at="2019-06-21T07:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UniformTest@7085bdee]" name="tearDown" is-config="true" duration-ms="4383" started-at="2019-06-21T07:24:31Z" finished-at="2019-06-21T07:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.UniformTest -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
